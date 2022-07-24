@@ -11,4 +11,4 @@ spec:
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: ~/Workspace/K8s/volumes/global
+    path: ~/Workspace/k8s-config/volumes/global
