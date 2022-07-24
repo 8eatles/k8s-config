@@ -16,6 +16,11 @@ spec:
       labels:
         app: mysql
     spec:
+      securityContext:
+        runAsUser: 1000
+        runAsGroup: 1000
+        fsGroup: 1000
+        fsGroupChangePolicy: "OnRootMismatch"
       volumes:
         - name: mysql-storage
           persistentVolumeClaim:
