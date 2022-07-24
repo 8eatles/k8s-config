@@ -8,5 +8,5 @@
 ## Getting Started
 
 ```bash
-bash ./scripts/init.sh
+./scripts/init.sh
 ```
